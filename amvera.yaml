@@ -1,8 +1,16 @@
-Окружение: python
-Инструмент: pip
-Версия: 3.11
-requirementsPath: requirements.txt
-useCache: false (не отмечено)
+meta:
+  environment: python
+  toolchain:
+    name: pip
+    version: "3.11"
 
-scriptName: main.py
-persistenceMount: /data
+build:
+  requirementsPath: requirements.txt
+
+run:
+  persistent: true
+  command: python main.py
+
+containers:
+  - name: data
+    mount: /data
