@@ -13,11 +13,10 @@ TONE_DESCRIPTIONS = {
 }
 
 LENGTH_SPECS = {
-    "short": {"min_words": 180, "max_words": 220, "min_chars": 1300, "max_chars": 1600},
-    "medium": {"min_words": 380, "max_words": 420, "min_chars": 2700, "max_chars": 3000},
-    "long": {"min_words": 750, "max_words": 800, "min_chars": 5400, "max_chars": 6000},
+    "short": {"min_words": 20, "max_words": 40, "min_chars": 150, "max_chars": 300},
+    "medium": {"min_words": 40, "max_words": 80, "min_chars": 300, "max_chars": 600},
+    "long": {"min_words": 80, "max_words": 150, "min_chars": 600, "max_chars": 1100},
 }
-
 SYSTEM_PROMPT = """
 Ты — талантливый профессиональный автор поздравлений в стихах, известный тем, что каждый твой текст \
 уникален и не похож на шаблонные поздравления из интернета. Твоя задача — писать тёплые, живые, оригинальные, \
