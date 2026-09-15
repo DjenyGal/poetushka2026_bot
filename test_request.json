@@ -1,0 +1,1 @@
+﻿{"model":"claude-4.5-haiku","max_tokens":100,"system":"You are a helpful assistant","messages":[{"role":"user","content":"Hello"}]}

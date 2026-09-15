@@ -1,0 +1,8 @@
+Окружение: python
+Инструмент: pip
+Версия: 3.11
+requirementsPath: requirements.txt
+useCache: false (не отмечено)
+
+scriptName: main.py
+persistenceMount: /data
